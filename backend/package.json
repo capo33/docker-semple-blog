@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "mohamed",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
