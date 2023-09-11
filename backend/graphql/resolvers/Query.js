@@ -3,7 +3,7 @@ const Query = {
     return json;
   },
   game: (parent, args, { json }, info) => {
-    return json.find((game) => game.id === args.id);
+    return json.find((game) => game.id === Number(args.id));
   },
 };
 
