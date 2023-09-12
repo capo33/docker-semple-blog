@@ -6,8 +6,8 @@
   "author": "mohamed",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js",
-    "graphql": "nodemon server.js"
+    "start": "nodemon server.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "@apollo/server": "^4.9.3",
