@@ -1,14 +1,9 @@
+import { Outlet } from "react-router-dom";
 
 import "./App.css";
-import { Rest, Home } from "./pages/Index";
 
 function App() {
-  return (
-    <div className='container'>
-      {/* <Rest /> */}
-      <Home />
-    </div>
-  );
+  return <div className='container'>{Outlet}</div>;
 }
 
 export default App;

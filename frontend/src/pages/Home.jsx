@@ -4,7 +4,6 @@ import { Card, Loader, Message } from "../components/Index";
 
 const Home = () => {
   const { loading, error, data } = useQuery(GET_GAMES);
-
   if (loading) return <Loader />;
 
   if (error) return <Message message={error.message} />;
